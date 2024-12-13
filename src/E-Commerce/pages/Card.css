@@ -1,0 +1,11 @@
+.card:hover {
+    transform: translateY(-10px);  /* Moves the card up by 10px */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Adds a soft shadow around the card */
+     cursor:pointer
+  }
+  
+  .card:hover .product-title {
+    color: #0080f7;
+    text-decoration:underline  /* Change the color of the title to tomato or any color you like */
+  }
+  
